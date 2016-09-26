@@ -1,0 +1,1 @@
+# scammer-bingo-pro-platinum-2016
