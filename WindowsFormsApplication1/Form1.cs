@@ -232,6 +232,10 @@ namespace WindowsFormsApplication1
             button39.Enabled = true;
             button40.Enabled = true;
             button41.Enabled = true;
+            button43.Enabled = true;
+            button44.Enabled = true;
+            button45.Enabled = true;
+            button46.Enabled = true;
             score = 0;
             label6.Text = score.ToString();
         }
@@ -372,6 +376,40 @@ namespace WindowsFormsApplication1
         {
             Form2 form2 = new Form2();
             form2.Show();
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            button43.Enabled = false;
+            score++;
+            label6.Text = score.ToString();
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            button44.Enabled = false;
+            score++;
+            label6.Text = score.ToString();
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+            button46.Enabled = false;
+            score++;
+            label6.Text = score.ToString();
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            button45.Enabled = false;
+            score++;
+            label6.Text = score.ToString();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
         }
     }
 }

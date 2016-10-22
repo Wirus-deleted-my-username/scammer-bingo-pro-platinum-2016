@@ -79,6 +79,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
+            this.button46 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -533,7 +538,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(-2, 533);
+            this.label3.Location = new System.Drawing.Point(-2, 591);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(231, 13);
             this.label3.TabIndex = 39;
@@ -641,7 +646,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 29);
             this.label5.TabIndex = 48;
-            this.label5.Text = "/40";
+            this.label5.Text = "/43";
             // 
             // label6
             // 
@@ -676,12 +681,75 @@
             this.button42.UseVisualStyleBackColor = true;
             this.button42.Click += new System.EventHandler(this.button42_Click);
             // 
+            // button43
+            // 
+            this.button43.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button43.Location = new System.Drawing.Point(336, 512);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(138, 52);
+            this.button43.TabIndex = 52;
+            this.button43.TabStop = false;
+            this.button43.Text = "R as Romeo";
+            this.button43.UseVisualStyleBackColor = true;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
+            // 
+            // button44
+            // 
+            this.button44.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button44.Location = new System.Drawing.Point(480, 512);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(138, 52);
+            this.button44.TabIndex = 53;
+            this.button44.TabStop = false;
+            this.button44.Text = "mallvare / spyvare";
+            this.button44.UseVisualStyleBackColor = true;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
+            // 
+            // button45
+            // 
+            this.button45.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button45.Location = new System.Drawing.Point(481, 279);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(138, 52);
+            this.button45.TabIndex = 54;
+            this.button45.TabStop = false;
+            this.button45.Text = "Opening INF or Prefetch folder";
+            this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
+            // 
+            // button46
+            // 
+            this.button46.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button46.Location = new System.Drawing.Point(624, 512);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(138, 52);
+            this.button46.TabIndex = 55;
+            this.button46.TabStop = false;
+            this.button46.Text = "Koobface / Zeus / Clampi";
+            this.button46.UseVisualStyleBackColor = true;
+            this.button46.Click += new System.EventHandler(this.button46_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(1027, 591);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "TextBox mode";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1103, 551);
+            this.ClientSize = new System.Drawing.Size(1100, 610);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button46);
+            this.Controls.Add(this.button45);
+            this.Controls.Add(this.button44);
+            this.Controls.Add(this.button43);
             this.Controls.Add(this.button42);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -736,7 +804,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Scammer Bingo Pro Platinum 2016";
+            this.Text = "Scammer Bingo Pro Platinum 2016 - Default Mode";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -795,6 +863,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button button45;
+        private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Label label7;
     }
 }
 
